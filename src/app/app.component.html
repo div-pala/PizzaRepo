@@ -1,17 +1,20 @@
-<p><b> Welcome to Churpus Pizza!</b></p>
-<table>
-  <thead>
-    <tr>
-      <th> Item </th>
-      <th> Category </th>
-      <th> Price </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let menuItem of items; index as i">
-      <td>{{menuItem.item}}</td>
-      <td>{{menuItem.category}}</td>
-      <td>{{menuItem.price | currency}}</td>
-    </tr>
-  </tbody>
-</table>
+
+<div>
+  <p class="title"><b> Welcome to Chirpus Pizza!</b></p>
+  <table class="tableDisplay">
+    <thead>
+      <tr>
+        <th> Item </th>
+        <th> Category </th>
+        <th> Price </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let menuItem of items; index as i">
+        <td>{{menuItem.item}}</td>
+        <td>{{menuItem.category | uppercase}}</td>
+        <td>{{menuItem.price | currency}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

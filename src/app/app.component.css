@@ -1,0 +1,31 @@
+table{
+    text-align: center;
+    align-content: center;
+    border-collapse: collapse;
+}  
+th {
+    border: 1px solid black;
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+}
+td {
+    border: 1px solid black;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: medium;
+}
+p.title{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+table.tableDisplay{
+    margin-left: auto; 
+    margin-right: auto;
+}
+table.tableDisplay tr:nth-child(2n+2){
+    background-color:rgb(201, 234, 190);
+}

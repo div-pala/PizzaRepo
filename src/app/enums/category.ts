@@ -1,6 +1,6 @@
 export enum Category {
-    dinner="dinner",
+    dinner = "dinner",
     sides = "sides",
     salads = "salads",
-    dessert = "desert"
+    dessert = "dessert"
 }
